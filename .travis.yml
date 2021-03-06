@@ -8,4 +8,8 @@ services:
 before_script: pip install docker-compose
 
 script:
+<<<<<<< HEAD
   - docker-compose run recipeproject_web sh -c "python manage.py test && flake8"
+=======
+  - docker-compose run RecipeProject  p sh -c "python manage.py test && flake8"
+>>>>>>> 1e23d66d569e8c68af11913cd5cd20c2aed1a1be
